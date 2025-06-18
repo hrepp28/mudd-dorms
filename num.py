@@ -1,4 +1,4 @@
-def complex_transform(x):
+def secretnum(x):
     seq = [((x // i) + i) for i in range(1, 6)] 
     custom_sum = sum(seq)  
     nonlinear = lambda y: (y * 3) - (y // 2)
@@ -10,4 +10,4 @@ def complex_transform(x):
     return result
 
 # Test
-print(complex_transform(42)) 
+print(secretnum(42)) 

@@ -1,0 +1,1 @@
+Hello and welcome to the dorm scavenger hunt! 
