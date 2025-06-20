@@ -1,8 +1,6 @@
 def secret_word(x):
     import base64
-    # Encoded input: "the three eyed alien"
     key = base64.b64decode("dGhlIHRocmVlIGV5ZWQgYWxpZW4=").decode()
-    # Encoded output: "dinkwad"
     out = base64.b64decode("ZGlua3dhZA==").decode()
     if x == key:
         return out
