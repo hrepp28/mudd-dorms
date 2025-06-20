@@ -10,4 +10,4 @@ def secretnum(x):
     return result
 
 # Test
-print(secretnum(42)) 
+print(secretnum(42))
